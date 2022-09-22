@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as DeleteIcon } from '../assets/svg/deleteIcon.svg';
 import { ReactComponent as EditIcon } from '../assets/svg/editIcon.svg';
 import BedIcon from '../assets/svg/bedIcon.svg';
-import BathTubIcon from '../assets/svg/bathTubIcon.svg';
+import BathTubIcon from '../assets/svg/bathtubIcon.svg';
 const ListingItem = ({ listing, id, onDelete, onEdit }) => {
 	return (
 		<li className='categoryListing'>

@@ -15,7 +15,6 @@ import { toast } from 'react-toastify';
 import { db } from '../firebase.config';
 import arrowRight from '../assets/svg/keyboardArrowRightIcon.svg';
 import homeIcon from '../assets/svg/homeIcon.svg';
-import Loading from '../components/Loading';
 import ListingItem from '../components/ListingItem';
 
 const Profile = () => {
